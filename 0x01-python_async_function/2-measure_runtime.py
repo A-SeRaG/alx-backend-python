@@ -6,7 +6,7 @@ import asyncio
 import time
 
 
-async def measure_time(n: int, max_delay: int) -> float:
+def measure_time(n: int, max_delay: int) -> float:
     """
     Measure_time function with integers n and max_delay as arguments
 
