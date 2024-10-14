@@ -13,6 +13,7 @@ async def measure_time(n: int, max_delay: int) -> float:
     Args:
         n(int): times of spawn
         max_delay(int): maximum amount of delay in second
+
     Returns:
         returns total_time / n
     """
