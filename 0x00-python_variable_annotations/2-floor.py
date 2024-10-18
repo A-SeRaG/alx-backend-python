@@ -1,17 +1,14 @@
 #!/usr/bin/env python3
 """
-This module provides a function `floor` to  returns the floor of the float.
+Basic annotations - floor
+Write type-annotated function floor with float argument
+Returns floor of the float
 """
 
 
 def floor(n: float) -> int:
     """
-     Returns the floor of the float.
-
-    Args:
-        n (float): number
-
-    Returns:
-        int: floor of float
+    Type-annotated function
+    Floor
     """
     return int(n)
